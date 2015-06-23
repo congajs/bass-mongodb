@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "async": "0.2.8",
-    "mongodb": "1.4.10",
+    "mongodb": "1.4.38",
     "bass": "latest"
   },
   "devDependencies": {
