@@ -1,6 +1,6 @@
 {
   "name": "bass-mongodb",
-  "version": "0.0.33",
+  "version": "1.0.0",
   "description": "MongoDB Adapter for Bass.js",
   "directories": {
     "test": "test"
@@ -27,9 +27,9 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "async": "0.2.8",
-    "mongodb": "1.4.38",
-    "bass": "latest"
+    "async": "2.0.1",
+    "lodash": "*",
+    "mongodb": "2.2.9"
   },
   "devDependencies": {
 
