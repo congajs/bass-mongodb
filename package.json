@@ -1,13 +1,13 @@
 {
   "name": "bass-mongodb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MongoDB Adapter for Bass.js",
   "directories": {
     "test": "test"
   },
   "main": "",
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "./node_modules/jasmine/bin/jasmine.js"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,10 @@
   ],
   "author": "Marc Roulias",
   "contributors": [
-	{
-		"name": "Anthony Matarazzo" ,
-		"email": "email@anthonymatarazzo.com"
-	}
+    {
+      "name": "Anthony Matarazzo",
+      "email": "email@anthonymatarazzo.com"
+    }
   ],
   "license": "MIT",
   "dependencies": {
@@ -31,8 +31,13 @@
     "lodash": "*",
     "mongodb": "2.2.9"
   },
+  "peerDependencies": {
+    "bass": "^1.0.0"
+  },
   "devDependencies": {
-
+    "jasmine": "^2.6.0",
+    "bass": "^1.0.0",
+    "log4js": "1.1.1"
   },
   "readmeFilename": "README.md"
 }
