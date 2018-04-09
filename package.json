@@ -1,6 +1,6 @@
 {
   "name": "bass-mongodb",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "MongoDB Adapter for Bass.js",
   "directories": {
     "test": "test"
